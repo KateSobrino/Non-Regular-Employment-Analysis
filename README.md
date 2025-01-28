@@ -38,10 +38,12 @@ The datasets used in this project are sourced from the OpenStat Philippines webs
 
 ### Dashboard
 1. **SDG 8 Dashboard**:
+![SDG 8](https://github.com/user-attachments/assets/941cd0c2-729b-4e8a-a246-b3a181bf45bc)
    - Focuses on employment trends and economic growth.
    - Highlights non-regular employment by region, industry group, and business size.
 
 2. **SDG 5 Dashboard**:
+![SDG 5](https://github.com/user-attachments/assets/1f202cab-98a9-469a-9271-3177e3e3713b)
    - Centers on gender equality.
    - Shows gender distribution and disparities in non-regular employment.
 
