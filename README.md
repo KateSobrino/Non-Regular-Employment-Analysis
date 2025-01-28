@@ -22,13 +22,12 @@ The datasets used in this project are sourced from the OpenStat Philippines webs
 ### Process
 1. **Data Cleaning**:
    - Removed duplicate records in Excel.
-   - Imported the datasets into Jupyter Notebook.
+   - Imported the datasets into Jupyter Notebook for further cleaning.
    - Used Python for further cleaning, including renaming columns to use underscores and correcting numerical values.
-   - Saved the cleaned datasets into a new folder.
 
 2. **Database Creation**:
    - Used PostgreSQL to create tables from the cleaned datasets.
-   - Combined and queried tables to generate insights.
+   - Combined and queried tables to normalize and denormalize tables.
 
 3. **Dashboard Development**:
    - Connected the database to Power BI.
