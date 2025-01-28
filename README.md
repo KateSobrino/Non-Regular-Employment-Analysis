@@ -8,7 +8,7 @@ Analysis of Non-Regular Employment in the Philippines is the final capstone proj
 The objective of this project is to analyze non-regular employment trends in the Philippines by business size, industry group, and region. Insights are derived to support Sustainable Development Goals (SDG) 8 (Decent Work and Economic Growth) and SDG 5 (Gender Equality).
 
 ### Dataset Source
-The datasets used in this project are sourced from the OpenStat Philippines website. They include:
+The datasets used in this project are sourced from the openstat.gov.ph website. They include:
 1. Total Non-Regular Employment by Business Size
 2. Total Non-Regular Employment by Industry Group
 3. Total Non-Regular Employment by Region
