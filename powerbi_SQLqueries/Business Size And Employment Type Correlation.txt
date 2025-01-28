@@ -1,0 +1,20 @@
+-- Query for Business Size And Employment Type Correlation
+SELECT 
+    d.year AS "Year", 
+    bt.business_size_category AS "Business Size",
+    SUM(f.total_non_regular) AS "Total Non Regular",
+    SUM(f.probationary) AS "Probationary",
+    SUM(f.casual) AS "Casual",
+    SUM(f.contractual) AS "Contractual",
+    SUM(f.seasonal) AS "Seasonal",
+    SUM(f.apprentices_Learners) AS "Apprentices Learners"
+FROM 
+    employment_data_fact f
+JOIN 
+    date_dim d ON f.date_id = d.date_id
+JOIN 
+    business_size_dim bt ON f.business_size_id = bt.business_size_id
+GROUP BY 
+    d.year, bt.business_size_category
+ORDER BY 
+    d.year, bt.business_size_category

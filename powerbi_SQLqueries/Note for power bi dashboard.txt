@@ -1,0 +1,24 @@
+After creating the database with all the data inside, you should be able to connect this dashboard directly to it by following these steps.
+
+1. Open PowerBI
+2. Click the 'Get data from another source'
+3. Scroll down and click postgreSQL database (it's important that all postgreSQL application are closed) then click 'Connect'
+4. An input pops up titled 'PostgreSQL database', input these details:
+
+Server:
+localhost
+
+Database:
+employment_db
+
+Data Connectivity mode:
+Import
+
+5. Then also click the 'Advanced options'
+paste the query inside this folder. One at a time so we could navigate the database with the specific variables that we need. 
+
+6. Click 'Ok', and from there you could 'Transform data' based on your preferences.
+
+7. After you changed the data based on your preferences, click the 'Close & Apply' under the Home tab at the upper left corner of the screen.
+
+8. Then the charts were formed from the queries done.

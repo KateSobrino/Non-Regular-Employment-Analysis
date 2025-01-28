@@ -1,0 +1,18 @@
+Note for executing code and query
+
+In order of operation:
+
+Using python in Jupyter Notebook:
+1. data_cleaning.ipynb
+
+Using postgresSQL:
+2. normalized_model.sql
+3. dimension_model.sql
+4. temp_to_normalized.sql
+5. temp_to_dimension.sql
+6. employment_data.sql
+
+db connection details
+db_name: employment_db
+db_username: postgres
+db_pass: password

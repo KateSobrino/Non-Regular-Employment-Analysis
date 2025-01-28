@@ -1,0 +1,19 @@
+SELECT 
+    d.year AS "Year", 
+    it.industry_category AS "Industry Category", 
+    SUM(f.total_non_regular) AS "Total Non Regular",
+    SUM(f.probationary) AS "Total Probationary",
+    SUM(f.casual) AS "Total Casual",
+    SUM(f.contractual) AS "Total Contractual",
+    SUM(f.seasonal) AS "Total Seasonal",
+    SUM(f.apprentices_learners) AS "Total Apprentices Learners"
+FROM 
+    employment_data_fact f
+JOIN 
+    date_dim d ON f.date_id = d.date_id
+JOIN 
+    industry_dim it ON f.industry_category_id = it.industry_category_id
+GROUP BY 
+    d.year, it.industry_category
+ORDER BY 
+    d.year, it.industry_category
